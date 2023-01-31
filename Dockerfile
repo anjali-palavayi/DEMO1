@@ -1,3 +1,3 @@
 FROM openjdk:13-jdk-alpine
-ADD target\demo.jar demo.jar
+ADD target\Demo.jar demo.jar
 ENTRYPOINT ["java","-jar","demo.jar"]
